@@ -1,0 +1,33 @@
+body{
+    /* background-image: url("./img/brannon-naito-wBnktqrvaaY-unsplash.jpg"); */
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+.w1{
+    color: #d4eb07;
+}
+#qq{
+    color: #d33b3b;
+}
+div h1{
+    border: 11px solid #8f3bd3;
+    border-radius: 10px;
+}
+div .w1{
+    border: 5px double #350312;
+}
+section > div{
+    border: 5px solid #f09fb7;
+}
+h1 +p{
+    font-size: 30px;
+}
+h1 ~ p{
+    font-style: italic;
+    font-weight: bold;
+}
+h1{
+    margin: 40px 60px;
+}

@@ -1,0 +1,463 @@
+html{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: "BeVietnamPro-Regular";
+    src: url("../fonts/BeVietnamPro-Regular.ttf") format("truetype");   
+}
+@font-face {
+    font-family: "Dosis-Medium";
+    src: url("../fonts/Dosis-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Times-new-roman-italic";
+    src: url("../fonts/Times-new-roman-italic.ttf") format("truetype");
+}
+*{ 
+    font-family: inherit;
+}
+body{
+    font-family: "BeVietnamPro-Regular";
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+   max-width: 80rem;
+   margin-right: auto;
+   margin-left: auto;
+   padding-right: auto;
+   padding-left: auto;
+}
+.header__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem ; 
+}
+.header_content_text:hover{
+    color: #0050C8;
+    font-weight: bold;
+}
+.menu__close{
+        display: none;
+    }
+.nav{ 
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__logo{ 
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+}
+.meno__link{
+     color: #081D43;
+     padding: 0 1rem;
+     font-size: 18px;
+}
+.meno__link:hover{
+      color: #87BC25;
+}
+.btn{
+    padding:0.5rem 1.5rem;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color:#0050C8;
+}
+.btn:hover{
+background-color: #87BC25;
+color: #000000;
+}
+.header__icon{
+    font-size: 1.8rem;
+    display: none;
+    cursor: pointer;
+}
+.section__btn{
+    padding-top:10rem;
+    align-items: center;
+}
+.header_content{ 
+   display: flex;
+   justify-content: space-between;
+}
+.header_content_left{
+     flex-basis:50% ; 
+}
+.header_content_title{
+    color: #081D43;
+    font-size: 37px;
+    padding-bottom:3rem;
+}
+.header_content_text{
+    line-height: 2.5rem;
+    color: #232f47;
+    font-size: 18px;
+}
+.btn__head{
+   font-size: 18px;
+   margin-top: 3rem;
+} 
+.content_btn1{
+ padding:0.5rem 1.5rem;
+ background-color:#87BC25;
+ color: #ffffff;
+ border-radius: 5px; 
+}
+.content_btn1:hover{
+    background-color: #4bf8a7;
+}
+.content_btn2{
+    margin-left: 1rem;
+padding:0.5rem 1.5rem;
+ background-color:#0050C8;
+ color: #ffffff;
+ border-radius: 5px;
+}
+.content_btn2:hover{
+    background-color: #54c0f1;
+}
+.header_content_right{
+flex-basis: 50%;
+}
+.header_content_img{
+width: 100%;
+}
+.section__1{
+    margin: 0 auto;
+    margin-top: 11rem;
+    text-align: center;  
+}
+.h4__m{
+font-size: 18px;
+}
+.h1__m{
+font-size: 38px;
+}
+.main{
+    flex-grow: 1;
+    width: 100%;
+    margin-bottom: 80px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.h2__m{
+    color: #081D43;
+    font-size: 22px;
+    padding-top: 1rem;
+}
+.h1__m:hover{
+color: #0050C8;
+font-size: 37px;
+}
+.p__m{
+    line-height: 2rem;
+    color: #565f72;
+    font-size: 18px;
+    max-width: 26rem;
+}
+.p__m:hover{
+color: #0050C8;
+font-size: 19px;
+
+}
+.section__img{
+    max-width: 31rem;
+    margin: 0 auto;
+}
+.img__m{
+    width: 100%;
+}
+.blue__container{
+    text-align: center;
+    width:100%;
+    background-color: #2F5BEA;
+    padding: 2rem 0;
+}
+.blue__text{
+    text-align: center;
+    color: #ffffff;
+}
+.blue__h2{
+    font-size: 50px;   
+}
+.blue__p{
+    font-size:28px;
+    line-height: 50px;
+}
+.comment__container{
+    max-width: 70rem;
+    margin: 4rem auto;
+}
+.blue__paragraph{
+    flex-wrap: wrap;
+    display: flex;
+    color:#071a49;
+    font-size: 18px;
+   justify-content: center;
+    gap: 50px;
+    text-align: left;
+    min-height: 18rem;
+    flex-basis: 13rem;
+    font-family: "Dosis-Medium";
+}
+.blue__right{
+   flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    line-height: 30px;
+    flex-basis: 18rem;
+    background-color: #ffffff;
+    border-radius:10px; 
+}
+.blue__center{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    line-height: 30px;
+    flex-basis: 18rem;
+    background-color: #ffffff;
+    border-radius:10px;
+}
+.blue__left{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    line-height: 30px;
+    flex-basis: 18rem;
+    background-color: #ffffff;
+    border-radius:10px;
+}
+.pro{ 
+   padding: 0.2rem;
+   align-items: center;
+   display: flex;
+   justify-content: start;
+   border-top: 1px solid #464545;
+}
+.comment__c{
+font-family: "Dosis-Medium";
+}
+.pro__h2{
+    font-family:'Times New Roman', Times, serif;
+font-size: 12px;
+color: #636262;
+margin-left: 10px;
+}
+.blue__img{
+    align-items: center;
+    margin-top:11rem;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.img_o{
+    margin: 1rem;
+}
+.container{
+    text-align: center;
+    padding-bottom: 8rem;
+    align-items: center;
+}
+.section__1{
+
+}
+.h4__ph{
+    font-size: 20px;
+}
+.photo__main{
+    align-items: center;
+    line-height: 5rem;
+    padding: 2rem 0;
+    flex-basis: 23rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.car__img{
+    border-radius: 5px;
+    transition: all 1s;
+
+}
+.car__img:hover{ 
+    box-shadow: 0px 0px 20px 5px rgba(124, 123, 123, 0.5);
+}
+.footer__blue{
+    text-align: center;
+}
+.mewsletter{
+    background-color: #2C57E4;
+    color: #ffffff;
+    padding: 3rem 0;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+.h1__blue{
+    font-size: 30px;
+}
+.foot__btn{
+    border: none;
+    outline: none;
+    padding: 0.8rem 1.2rem;
+    background-color:#3e68f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+.foot__btn:hover{
+    background-color: #45bb00;
+}
+.foot1{
+    font-size: 18px;
+    height:100px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #6C7890;
+    display: flex;
+}
+.fi__main{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.input__blue{
+    border: none;
+    outline: none;
+}
+.put{
+    padding: .5rem 0.5rem;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    flex-basis: 20rem;
+    min-height: 10px;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .btn{
+        display: none;
+    }
+    .header_content{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .header_content_right{
+       margin-bottom: 4rem; 
+    }
+    .header_content_left{
+        width: 100%;
+    }
+    .btn__head{
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+    .main{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .header__icon{
+        display:block;
+    }
+    .menu__close{
+        display: block;
+        padding-top: 2rem;
+    }
+    .menu__close:hover{
+       cursor: pointer;
+    }
+    .menu__close{
+        display: block;
+    }
+    .menu{
+       position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background: #2C57E4;
+        width: 15rem;
+
+        flex-direction: column;
+        text-align: left;
+        font-size: 3.5rem;
+        border-radius: 3px;
+        transition: all 1.5s;
+}
+    .meno__link{
+        color: #ffffff;
+    }
+    .blue__img{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+       .photo__main{
+       flex-basis: 11rem;
+}
+.h1__blue{
+    font-size: 28px;
+}
+.news{
+    flex-direction: column;
+}
+.put{
+    flex-basis: 3rem;
+}
+.foot1{
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media print {
+  h1{
+    color: #000000;
+  }
+  }
+}

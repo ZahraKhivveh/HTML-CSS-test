@@ -31,3 +31,8 @@ h1 ~ p{
 h1{
     margin: 40px 60px;
 }
+.content{
+    min-width: 50%;
+    max-width: 250px;
+    background-color: lawngreen;
+}

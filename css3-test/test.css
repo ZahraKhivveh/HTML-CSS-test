@@ -1,8 +1,16 @@
+@font-face{
+    font-family: "Dosis-Bold";
+    src:local("Dosis-Bold"), url(../project_web1/fonts/Dosis-Bold.ttf) format("truetype"),
+    url(../project_web1/fonts/Drift___.woff2) format("woff2");
+
+}
+
 body{
     /* background-image: url("./img/brannon-naito-wBnktqrvaaY-unsplash.jpg"); */
     background-repeat:no-repeat;
     background-size: 100%;
     background-attachment: fixed;
+    font-family: "Dosis-Bold";
 
 }
 .w1{

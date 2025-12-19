@@ -36,3 +36,12 @@ h1{
     max-width: 250px;
     background-color: lawngreen;
 }
+.pop{
+    font-size: 130px;
+    color: orangered;
+    
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 11px rgb(115, 178, 236);
+}

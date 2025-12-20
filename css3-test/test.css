@@ -14,6 +14,7 @@ body{
     height: 22000;
 
 }
+
 .kp1{
     text-transform: capitalize;
 width: 100%;
@@ -27,15 +28,14 @@ margin-bottom: 20px;
 }
 .kp2{
     text-transform: capitalize;
-    width: 100%;
-    height: 200px;
-    line-height: 200px;
-    font-size: 200px;
+    font-size: 100px;
     text-align: center;
     background-color:#3bd36e;
     margin-bottom: 20px;
     position: fixed;
-    bottom: 0;
+    display: inline;
+    top: 0;
+    right: 0;
     
     }
     .kp3{
@@ -64,7 +64,59 @@ margin-bottom: 20px;
             position: relative;
             top: 0;
             right:0;
+            border-radius: 50px;
             }
+
+            .kp5{
+                text-transform: capitalize;
+                width: 100%;
+                height: 100px;
+                color: #f8f7f7;
+                line-height: 60px;
+                font-size: 50px;
+                text-align: center;
+                word-spacing: 20px;
+                background-color:#da80bf;
+                margin-bottom: 20px;
+                display: block;
+               overflow: auto;
+                }
+ 
+    .container{
+background: #ebe9e9;
+    }
+    .ff1{
+        width: 200px;
+        height: 200px;
+        background: #fd7ed7;
+        font-size: 80px;
+        text-align: center;
+        color: #ff6600;
+    }
+    .ff2{
+        width: 200px;
+        height: 200px;
+        background: #a2fd7e;
+        font-size: 80px;
+        text-align: center;
+        color: #ff6600;
+    }
+    .ff3{
+        width: 200px;
+        height: 200px;
+        background: #7eaafd;
+        font-size: 80px;
+        text-align: center;
+        color: #ff6600;
+    }
+    .ff4{
+        width: 200px;
+        height: 200px;
+        background: #f3e851;
+        font-size: 80px;
+        text-align: center;
+        color: #ff6600;
+    }
 
 
 

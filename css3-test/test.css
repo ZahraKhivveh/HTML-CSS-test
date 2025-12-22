@@ -4,6 +4,9 @@
     url(../project_web1/fonts/Drift___.woff2) format("woff2");
 
 }
+:root{
+    --main-color : #00ff4c ;
+}
 
 body{
     /* background-image: url("./img/brannon-naito-wBnktqrvaaY-unsplash.jpg"); */
@@ -13,14 +16,14 @@ body{
     font-family: "Dosis-Bold";
     height: 22000;
     cursor: pointer;
-
+    
 }
 
 .kp1{
     text-transform: capitalize;
-width: 100%;
-height: 200px;
-line-height: 200px;
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
 font-size: 200px;
 text-align: center;
 background-color:#8f3bd3;
@@ -59,7 +62,7 @@ margin-bottom: 20px;
             line-height: 200px;
             font-size: 120px;
             text-align: center;
-            background-color:#d3523b;
+            background-color:var(--main-color);
             margin-bottom: 20px;
             display: inline;
             position: relative;
@@ -81,20 +84,20 @@ margin-bottom: 20px;
                 background-color:#da80bf;
                 margin-bottom: 20px;
                 display: block;
-               overflow: auto;
-                }
-    [type]  {
-        background-color: #a4caa4;
+                overflow: auto;
+            }
+            [type]  {
+                background-color: #a4caa4;
         width: 20%;
     }          
  
     .container{
         height: 400px;
-background: #ebe9e9;
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-align-items:center;
+        background: #ebe9e9;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items:center;
     }
     .ff1{
         width: 200px;
@@ -113,7 +116,7 @@ align-items:center;
     .ff2{
         width: 200px;
         height: 200px;
-        background: #a2fd7e;
+        background: var(--main-color);
         font-size: 80px;
         text-align: center;
         color: #000000;
@@ -155,6 +158,57 @@ align-items:center;
         width: 150px;
         font-size: 15px;
         color: #000;
+    }
+    .d0{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .d1{
+        width: 200px;
+        height: 200px;
+        font-size: 50px;
+       transition: all 2s;
+        background-color: #3bbcd3;
+        
+        padding: 1%;
+    }
+    .d1:hover{
+        transform: rotate(180deg);
+    }
+    .d2{
+        
+        width: 200px;
+        height: 200px;
+        font-size: 50px;
+        transition: all 2s;
+        background-color: #353102;
+        align-items: center;
+        transition: all 2s;
+    }
+    .d2:hover{
+        transform: skew(90deg);
+    }
+    .d3{
+        width: 200px;
+        height: 200px;
+        font-size: 50px;
+        transition: all 2s;
+        background-color: #f71eb5;
+        align-items: center;
+    }
+    .d3:hover{
+        transform: scale(2);
+    }
+    .d4{
+        width: 200px;
+        height: 200px;
+        font-size: 50px;
+        transition: all 2s;
+        background-color: #84d33b;
+        align-items: center;
+    }
+    .d4:hover{
+    transform: translate(120px , 110px);
     }
 
 

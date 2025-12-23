@@ -6,6 +6,7 @@
 }
 :root{
     --main-color : #00ff4c ;
+    text-align: center;
 }
 
 body{
@@ -261,4 +262,72 @@ h1{
 
 .pop:hover{
     color: #000;
+}
+.shadoww{
+    box-shadow: 8px 5px 13px #000000;
+}
+.item{
+    background: #f09fb7;
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 10px 30px;
+    font-size: 100px;
+    color: #ffffff;
+    grid-template-rows: auto 2fr 2fr;
+    grid-template-columns: max-content 2fr min-content 2fr;
+    
+}
+.item_1{
+    background: #fc004c;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    
+}
+.item_2{
+    background: #fc004c;
+    
+    
+}
+.item_3{
+    background: #fc004c;
+   
+}
+.item_4{
+    background: #fc004c;
+    
+}
+.item_5{
+    background: #fc004c;
+    
+}
+.item_6{
+    background: #fc004c;
+    
+}
+.item_7{
+    background: #fc004c;
+   
+}
+.item_8{
+    background: #fc004c;
+    
+}
+.item_9{
+    background: #fc004c;
+    
+}
+.item_10{
+    background: #fc004c;
+    
+}
+.item_11{
+    background: #fc004c;
+    
+}
+.item_12{
+    background: #fc004c;
+    
 }
